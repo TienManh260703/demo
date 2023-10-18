@@ -1,0 +1,24 @@
+-Tạo project từ git
+git clone 
+
+# git status : Kiểm tra trạng  thái file 
+# Thêm tất cả các file thay đổi vào staging area
+git add .
+
+# Commit các thay đổi đã được thêm vào staging area
+git commit -m "test file"
+
+# Sau khi bạn đã tạo commit, hãy thử đẩy (push) lên remote repository
+git push origin main
+
+-Tạo dự án tại máy
+1 :  Tao git repo
+2 : git init
+3 : Vieets code
+ 	git status
+	git add .
+	git commit -m "sdfgdsf"
+	git remote add origin https://...
+	git push origin master
+
+ssh-keygen -t ed25519 -C "nguyenmanh19924@gmail.com"
